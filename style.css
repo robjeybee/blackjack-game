@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Rye", serif;
+  background-color: gainsboro;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 62px;
+}
+
+span {
+  color: red;
+}
+
+.container {
+  background-image: url("https://images.pexels.com/photos/2508565/pexels-photo-2508565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  border-radius: 15px;
+  line-height: 40px;
+}
+
+#message-el {
+  font-size: 24px;
+}
+
+#start-game-el,
+#new-card {
+  border-radius: 15px;
+  padding: 5px 10px;
+  background-color: green;
+  color: antiquewhite;
+  border: 2px solid whitesmoke;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Rye", serif;
+}
+
+#start-game-el:hover,
+#new-card:hover {
+  transform: scale(1.1);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}

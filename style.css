@@ -53,10 +53,10 @@ span {
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    width: 200px;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 200px;
+  margin: auto;
 }
